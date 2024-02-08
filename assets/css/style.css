@@ -127,7 +127,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(252, 130, 72, 0.8);
+  background: rgba(255, 99, 71, 0.6);
 }
 
 #header .logo {
@@ -224,7 +224,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #ffc451;
+  color: #004526;
 }
 
 .navbar .dropdown ul {
@@ -1349,7 +1349,7 @@ section {
   padding: 15px 0;
   background: whitesmoke;
   min-height: 40px;
-  margin-top: 74px;
+  margin-top: 95px;
 }
 
 .breadcrumbs h2 {
