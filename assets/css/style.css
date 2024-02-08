@@ -127,7 +127,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(252, 130, 72, 0.8);
 }
 
 #header .logo {
@@ -1398,14 +1398,14 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: black;
+  background: #006400;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #151515;
+  background: #006400;
   border-bottom: 1px solid #222222;
   padding: 60px 0 30px 0;
 }
