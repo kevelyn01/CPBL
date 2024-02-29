@@ -52,11 +52,11 @@
     }
 
     body {
-        background: rgba(128, 128, 128, 0.096);
-        font-family: "Open Sans", sans-serif;
-        color: #525f7f;
-        margin: -30px 0px -30px 0px;
-    }
+	background: rgba(128, 128, 128, 0.096);
+	font-family: "Open Sans", sans-serif;
+	color: #525f7f;
+	margin: -30px 0px -30px 0px;
+}
 
     footer {
         position: relative;
@@ -229,6 +229,13 @@
         }
 
     }
+.style2 {
+	color: #FF6600;
+	background: #FFE4CA;
+}
+.style3 {
+	color: #006600;
+}
 </style>
 
 <body>
@@ -326,7 +333,77 @@
 
 <br>
 <br>
-  
+   <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Contact Us</p>
+        </div>
+
+        <div>
+          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15262.655408461338!2d-88.3728117!3d16.9910772!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5dbc7a01ae0deb%3A0xf227bd0e6df3180a!2sCitrus%20Products%20of%20Belize!5e0!3m2!1sen!2sbz!4v1707245384189!5m2!1sen!2sbz" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4 class="style3"><strong>Location:</strong></h4>
+                <p class="style2">Mile 12, Hummingbird Hwy, Pomona</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4 class="style3"><strong>Email:</strong></h4>
+                <p class="style2">info@citrusproductsbelize.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4 class="style3"><strong>Call:</strong></h4>
+                <p class="style2">+501 522 2055</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
        
 <div class="cognito">
     <script src="https://www.cognitoforms.com/s/dXKE_csLYUC64Jxa7UkRsQ"></script>
